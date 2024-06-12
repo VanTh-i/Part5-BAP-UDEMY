@@ -1,0 +1,101 @@
+# Visual Studio files
+.vs/
+*.VC.db
+*.VC.VC.opendb
+*.suo
+
+# Binaries and Intermediate directories
+Binaries/
+Intermediate/
+
+# Ignore Unreal DerivedDataCache
+DerivedDataCache/
+
+# Ignore compiled plugin binaries
+Plugins/*/Binaries/*
+Plugins/*/Intermediate/*
+
+# Ignore auto-generated files
+*.generated.*
+*.log
+*.obj
+*.pch
+*.pdb
+*.aps
+*.ncb
+*.user
+*.rsuser
+*.sln
+*.opensdf
+*.sdf
+*.suo
+*.tlog
+*.log
+*.vspscc
+*.vssscc
+
+# Ignore the following OS files
+# Windows
+Thumbs.db
+Desktop.ini
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+# Linux
+*~
+
+# Ignore build products
+*.stackdump
+
+# Ignore backup files
+*.bak
+*.old
+*.backup
+*.orig
+*.tmp
+*.temp
+
+# Ignore Unreal Engine specific directories
+.vscode/
+*.code-workspace
+Saved/
+Config/Windows/
+Config/WindowsNoEditor/
+Config/WindowsClient/
+Config/WindowsServer/
+Config/HTML5/
+Config/Android/
+Config/Android_ETC2/
+Config/Android_DXT/
+Config/Android_PVRTC/
+Config/Android_ATC/
+Config/Android_ASTC/
+Config/AndroidClient/
+Config/AndroidClient_ETC2/
+Config/AndroidClient_DXT/
+Config/AndroidClient_PVRTC/
+Config/AndroidClient_ATC/
+Config/AndroidClient_ASTC/
+Config/AndroidServer/
+Config/AndroidServer_ETC2/
+Config/AndroidServer_DXT/
+Config/AndroidServer_PVRTC/
+Config/AndroidServer_ATC/
+Config/AndroidServer_ASTC/
+Config/IOS/
+Config/Linux/
+Config/LinuxAArch64/
+Config/LinuxArm32/
+Config/LinuxClient/
+Config/LinuxAArch64Client/
+Config/LinuxArm32Client/
+Config/LinuxServer/
+Config/LinuxAArch64Server/
+Config/LinuxArm32Server/
+Config/Mac/
+Config/TVOS/
+Config/PS4/
+Config/Switch/
+Config/XboxOne/
+Config/WindowsGDK/
